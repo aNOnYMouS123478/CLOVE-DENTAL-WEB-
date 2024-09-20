@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    margin: 0px;
+    padding: 20px;
+}
+.logo-styling{
+    color: orange;
+    font-family: serif;
+    font-weight: 700;
+}
+.style-matching{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo-p{
+    color: black;
+    margin-left: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.menu-section{
+    display: flex;
+    background-color: #ffe6cc;
+    width: 100%;
+    background-size: cover;
+}
+.img-styling{
+    height: 550px;
+    width: 250px;
+    border-radius: 20px;
+}
+.card {
+    background-color: #ffffcc;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  .icons2{
+    height: 46px;
+    width: 50px;
+  }
+  .style-f{
+    color: black;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .icon-container {
+    text-align: center;
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .icon-container i {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .icon-container p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Adjust width as needed */
+  }
+  .consultation-heading{
+    font-family: roboto;
+    font-weight: 700;
+    color: black;
+  }
+  .consultation-para{
+    font-family: roboto;
+    font-weight: 300;
+    color: black;
+  }
+  .sub-para{
+    color: #ff7700;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  form {
+    display: flex;
+    justify-content: space-between; /* Create two columns side by side */
+  }
+  .consultation-section-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .form-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Take equal space for both columns */
+    gap: 15px; /* Space between the form elements */
+  }
+  .star-img{
+    height: 20px;
+    width: 20px;
+  }
+  .rating{
+    font-weight: 500;
+    color: black;
+  }
+  .pr2{
+    color: black;
+    font-weight: 700;
+  }
+  .number2{
+    font-weight: 700;
+    color:#ff7700;
+    margin-left: 0;
+  }
+  .hd{
+    font-size: 29px;
+    font-weight: 500;
+    font-family: roboto;
+    font-style: bold;
+    margin-right: 20px;
+    color: black;
+  }
+  .number{
+    color: #ff7700;
+    font-size: 29px;
+  }
+  .pr{
+    color: black;
+    font-family: roboto;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .google-card{
+    display: flex;
+    flex-direction: row;
+  }
+  .google-img{
+    height: 120px;
+    width: 120px;
+  }
+  .rating-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
+  .footer-section{
+    margin-top: 80px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+  }
+  .form-groups{
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .otp-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .otp-group input {
+    flex-grow: 1;
+  }
+  
+  .verify-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .buttons-card select,
+  .buttons-card button {
+    width: 100%; /* Make both elements full width within their container */
+    padding: 10px; /* Ensure consistent padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width/height */
+  }
+  
+  .next-button2 {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button2:hover {
+    background-color: #ff7700;
+  }
+  
+  .next-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .next-button:hover, .verify-button:hover {
+    background-color: #ff7700;
+  }
+.logo{
+    font-family: Arial;
+    font-weight: 500;
+    color: black;
+    margin-left: 20px;
+}
+.log-p{
+    color: black;
+    font-family: Arial;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+
+footer {
+    background-color: #4d1a00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .footer-h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration:   
+   underline;
+  }
+  .last-logo{
+    color: black;
+  }
+  .social-icons {
+    margin-bottom: 15px;
+  }
+  .last-sub{
+    font-size: 40px;
+  }
+  .social-icons a {
+    margin: 0 5px;
+    font-size: 20px;
+  }
+  
+  .p4 {
+    margin-bottom: 0;
+    color: #cc4400;
+    font-size: 150px;
+    font-family:serif;
+  }
+
+  .dental-treatments {
+    flex-wrap: wrap;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffb366;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .dental-treatments__heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .dental-treatments__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .dental-treatments__grid-item {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+    height: 150px;
+    width: 130px;
+  }
+  
+  .dental-treatments__grid-item-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .dental-treatments__grid-item-title {
+    font-size: 1.2rem;
+    margin: 0 ;
+  }
+  
+  .dental-treatments__button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ff7700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 2rem;
+  }
+  
+  .dental-treatments__button:hover {
+    background-color: #ff7700;
+  }
+  .dental-consultation {
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .dental-consultation-card2{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffccff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 8px;
+    margin-left:20px;
+    flex-direction: column;
+}
+.img-style{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-self: flex-end;
+}
+.clinic-img{
+    height: 170px;
+    width: 200px;
+    margin-top: 8px;
+}
+
+  .dental-consultation__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+  }
+  
+  .dental-consultation__subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .dental-consultation__contact {
+    margin-bottom: 2rem;
+  }
+  
+  .dental-consultation__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dental-consultation__form-input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    height: 40px;
+    width: 200px;
+  }
+  .para-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .dental-consultation__form-select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    height: 40px;
+    width: 200px;
+  }
+  
+  .dental-consultation__form-button {
+    padding: 0.5rem 1rem;
+    background-color:#ff7700 ;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e6ccff;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #99ffff;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .dental-consultation__stats-number {
+    font-weight: bold;
+  }
+  
+  .dental-consultation__actions-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff7700;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 0.5rem;
+  }
+  .dental-consultation__actions-button:hover{
+    background-color:#ff7700 ;
+  }
+  .dental-consultation-card1{
+    background-color: #ffffb3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .main-scroll-bg {
+    background-color: #ffbf80;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scroll-content {
+    display: flex;
+    animation: scroll-left 20s linear infinite; /* Infinite scrolling animation */
+  }
+  
+  .scroll-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; /* Space between items */
+  }
+  
+  .scroll-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .color-style {
+    color: #ff7700;
+    font-weight: 700;
+  }
+  
+  .scroll-para {
+    color: black;
+    font-weight: 500;
+    font-family: roboto;
+  }
+  
+  /* Animation to move content from right to left */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
